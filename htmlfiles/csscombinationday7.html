@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /*  .container h1{
+            color: chartreuse;
+
+        }
+*/
+        /*div>p{
+            color: crimson;
+        }*/
+        p+h1{
+            text-decoration: line-through;/*adjusent sibling*/
+        }
+        p~h1{
+            color: darkmagenta;/*general sibling*/
+
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="container">
+        <p>
+                <h1>heading
+                    <p>para from div</p>
+                </h1> 
+        </p>
+    </div>-->
+    <div>
+        <p>para of div</p>
+        <h1>first sibling</h1>
+        <p>para from div</p>
+        <h1>second sibling</h1>
+        <div>
+            <h1>{nested para}</h1>
+        </div>
+        <p>para last</p>
+        <h1>last sibling</h1>
+        
+    </div>
+
+
+
+
+
+
+
+    <!--<h1>this works based on the relation between the elements</h1>
+    <h6>descendant</h6>
+    <h6>siblings</h6>
+    <div>
+        <h1>1st heading</h1>
+    </div>
+
+    <div class="container">
+        <p>para1<h1>head in the para</h1></p>
+        <h1>heading1</h1>
+        <p>para2<h1>head in the para</h1></p>
+        <h1>heading2</h1>
+        <p>para3<h1>head in the para</h1></p>
+        <h3>heading3</h3>
+        <p>para4<h1>head in the para</h1></p>
+        <h1>heading4</h1>
+        <p>para5<h1>heading in the para</h1></p>
+        <h1>heading5</h1>
+        
+    </div>
+-->
+</body>
+</html>
